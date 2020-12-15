@@ -1,0 +1,40 @@
+.header-flexbox-container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  margin: 12px 21px;
+}
+
+.header-flexbox-container img {
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+}
+
+.header-flexbox-container i {
+  align-self: center;
+  font-size: 25px;
+}
+
+.pagename-date-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 2;
+  margin-left: 21px;
+}
+
+.pagename-date-container span:nth-child(1) {
+  color: #3a5c9f;
+  font-weight: bold;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.pagename-date-container span:nth-child(1):hover {
+  text-decoration: underline;
+}
+
+.pagename-date-container span:nth-child(2) {
+  font-size: 14px;
+}
