@@ -1,0 +1,23 @@
+.image-button-link-container {
+  position: relative;
+  background-image: url("../Content/cover.jpeg");
+  background-size: cover;
+  width: 100%;
+  height: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-button-link-container i {
+  font-size: 55px;
+  color: #ffffff;
+}
+
+.gray-container {
+  position: absolute;
+  width: 100%;
+  height: 9vh;
+  bottom: 0;
+  background-color: #efefef;
+}
