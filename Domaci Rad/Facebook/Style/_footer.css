@@ -1,0 +1,32 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex: 1 1 auto; /*spusti me do kraja parent div-a */
+}
+
+.emoji-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.emoji-container:hover {
+  background-color: #e4e9f5;
+}
+
+.emoji i,
+span {
+  font-size: 21px;
+}
+
+.emoji:nth-child(1) {
+  color: #3a5c9f;
+}
+
+.emoji span {
+  margin: 0 8px;
+}
