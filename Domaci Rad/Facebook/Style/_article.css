@@ -43,11 +43,15 @@
   font-size: 18px;
 }
 
-.article-text span:nth-child(1) {
-  font-size: 12px;
+.article-text span:nth-child(3) {
+  font-size: 16px;
 }
 
 @media screen and (max-width: 800px) {
+  .image-button-link-container {
+    height: 300px;
+  }
+
   .article-text span {
     white-space: nowrap;
     overflow: hidden;

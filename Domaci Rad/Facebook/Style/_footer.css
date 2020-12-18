@@ -2,7 +2,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  flex: 1 1 auto; /*spusti me do kraja parent div-a */
+  flex: 1 1 auto;
 }
 
 .emoji-container {
@@ -29,4 +29,15 @@ span {
 
 .emoji span {
   margin: 0 8px;
+}
+
+@media screen and (max-width: 800px) {
+  footer {
+    height: 48px;
+  }
+
+  .emoji i,
+  span {
+    font-size: 18px;
+  }
 }

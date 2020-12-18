@@ -28,7 +28,10 @@ body {
 
 @media screen and (max-width: 800px) {
   .facebook-container {
-    width: 92%;
-    height: 92%;
+    position: relative;
+    width: 90%;
+    height: 70%;
+    margin: 38px 0;
+    transform: translate(-50%, 0%);
   }
 }
